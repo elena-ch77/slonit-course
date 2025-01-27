@@ -2,6 +2,10 @@ let i=0;
 let x= 42;  //компьютер 1
 let n=100;
 let rezult = Math.round((i+n)/2); //Компьютер 2
+if (rezult==x) {
+   console.log(`Компьютер 2: пробую число ${rezult}`);
+   console.log(`Компьютер 1: Число угадано - ${x}`);
+}
 while (rezult!=x) {
     rezult = Math.round((i+n)/2);
  if (rezult==x) {
